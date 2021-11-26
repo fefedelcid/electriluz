@@ -1,0 +1,11 @@
+<%- include('templates/header', {title: "Electriluz"}) %>
+
+<h1>Bienvenido a Electriluz</h1>
+<hr>
+<ul>
+	<% for(let i=0; i<10; i++){ %>
+		<li><%- include('templates/product') %></li>
+	<% } %>
+</ul>
+
+<%- include('templates/footer') %>
