@@ -2,10 +2,10 @@
   "name": "electriluz",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "start": "nodemon app.js -e ejs,js,css"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/fefedelcid/electriluz#readme",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "foundation-sites": "^6.7.4",
+    "nodemon": "^2.0.15"
   }
 }

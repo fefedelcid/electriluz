@@ -1,0 +1,23 @@
+.pagination {
+	text-align: center;
+}
+
+.pagination ol {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.pagination-item a {
+	margin: 5px 2px;
+	padding: 10px 15px;
+	display: block;
+	float: left;
+	color: black;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+
+.pagination-item a:hover {
+	box-shadow: var(--area-shadow);
+}
